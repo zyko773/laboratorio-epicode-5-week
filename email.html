@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifica DHL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .email-header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        .email-header img {
+            max-width: 150px;
+        }
+        .email-body {
+            padding: 20px;
+            color: #333;
+        }
+        .email-body h1 {
+            font-size: 22px;
+            color: #333;
+        }
+        .email-body p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .email-body .info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .email-body .info-box p {
+            margin: 5px 0;
+        }
+        .cta-button {
+            display: block;
+            width: fit-content;
+            background-color: #ffcc00;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 20px auto;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #e6b800;
+        }
+        .email-footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/DHL_Logo.svg" alt="DHL Logo">
+        </div>
+        <div class="email-body">
+            <h1>Notifica di Blocco Pacco</h1>
+            <p>Caro cliente,</p>
+            <p>Il tuo pacco con il numero di tracciamento <strong>TRK12345678</strong> è attualmente bloccato alla dogana. Per completare la consegna, è necessario effettuare un pagamento di <strong>2,99 €</strong>.</p>
+            <div class="info-box">
+                <p><strong>Dispositivo:</strong> Samsung Galaxy S23</p>
+                <p><strong>Posizione:</strong> Milano, Italia</p>
+                <p><strong>Ora:</strong> 10:42 CET, 11 gennaio 2025</p>
+            </div>
+            <p>Per favore, clicca sul pulsante qui sotto per procedere al pagamento:</p>
+            <a href="http://example.com/paga" class="cta-button">Paga ora</a>
+            <p>Se il pagamento non viene effettuato entro 48 ore, il pacco sarà restituito al mittente.</p>
+            <p>Grazie per la collaborazione.<br>Servizio Clienti DHL</p>
+        </div>
+        <div class="email-footer">
+            <p>Questa è una comunicazione automatica. Non rispondere a questa email.</p>
+        </div>
+    </div>
+</body>
+</html>
